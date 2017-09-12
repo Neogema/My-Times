@@ -35,14 +35,9 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
-/* For testing remove later */
-div {
-  border: solid 1px black;
-}
 /* Body */
 body {
   margin: 0;
-  display: block;
 }
 .content {
   display: flex;
@@ -63,4 +58,48 @@ body {
 }
 .column.small {
   width: 240px;
+}
+.main {
+  background-image: url(../images/main.png);
+  width: 630px;
+}
+.fall {
+  background-image: url(../images/fall.png);
+}
+.camera {
+  background-image: url(../images/camera.png);
+}
+.cat {
+  background-image: url(../images/cat.png);
+}
+.fall, .camera, .cat {
+  margin-top: 15px;
+  text-align: center;
+}
+.images {
+  height: 300px;
+}
+.images span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.main span {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+}
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories .text {
+  height: 250px;
 }
