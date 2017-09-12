@@ -38,6 +38,7 @@ nav span {
 /* Body */
 body {
   margin: 0;
+  font-family: Georgia;
 }
 div {
   display: block;
@@ -84,7 +85,6 @@ div {
   height: 300px;
 }
 .images span {
-  font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
