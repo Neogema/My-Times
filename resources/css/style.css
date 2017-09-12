@@ -157,3 +157,6 @@ nav span {
   display: flex;
   align-items: center;
 }
+.copyright {
+  padding-right: 50px;
+}
